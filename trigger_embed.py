@@ -9,16 +9,12 @@ import shutil
 from param import param as param
 import warnings
 import numpy as np
-from pypesq import pesq
-import statistics
 import math
 from scipy.signal import sawtooth
 from pydub import AudioSegment
 
 CLASSES = 'yes, no, up, down, left, right, on, off, stop, go'.split(', ')
 classes = CLASSES
-stoi_score_list = []
-pesq_score_list = []
 frame_index_list = []
 
 folder = param.path.benign_train_wavpath
