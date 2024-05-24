@@ -37,6 +37,9 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Download starganv2vc and unzip
+Due to GitHub's file size limits, please download and unzip the starganv2vc code package to the root directory. The download link is: [starganv2vc](https://drive.google.com/file/d/14Xo7zJavEoCdO_ZefZGuyEXnWawGvX0Y/view?usp=sharing).
+
 
 ### Download Dataset
 Run below command to download `Speech-Commands dataset` into `./dataset/`.
