@@ -1,0 +1,42 @@
+GPU_num: '1'
+path:
+  benign_train_wavpath: './datasets/speech_commands/train/'
+  benign_test_wavpath: './datasets/speech_commands/test/'
+  benign_train_npypath: './datasets/train/'
+  benign_test_npypath: './datasets/test/'
+  poison_train_path: './datasets/trigger_train/'
+  poison_test_path: './datasets/trigger_test/'
+librosa:
+  sr: 22050
+  hop_length: 256
+  win_length: 1024
+  n_fft: 1024
+  n_mels: 80
+train:
+  batch_size: 64
+  epochs: 50
+  lr: 0.01
+  momentum: 0.9
+  optim: 'SGD'
+  model_name: 'lstm'
+  resume: False
+  resume_model_name: 'Finetune_cnn.pth'
+trigger_gen:
+  poison_proportion: 0.5
+  target_label: 'left'
+  trigger_pattern: 'PBSM'
+  timbre_type: 236
+  max_sample: 212
+  n_steps: 5
+  extend: 150
+  duration: 20
+  reset_trigger_test: True
+trigger_train:
+  batch_size: 32
+  epochs: 50
+  lr: 0.01
+  momentum: 0.9
+  optim: 'SGD'
+  model_name: 'resnet18'
+  resume: 'False'
+  resume_model_name: ''
