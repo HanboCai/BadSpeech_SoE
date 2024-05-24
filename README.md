@@ -85,9 +85,5 @@ $ python attack_test.py   // Attack test
 
 This project is licensed under the terms of the Apache License 2.0. See the LICENSE file for the full text.
 
-## License 
-
-This project is licensed under the terms of the Apache License 2.0. See the LICENSE file for the full text.
-
 ## Acknowledgments
 Our voice conversion section of the code is based on [starganv2vc-paddle](https://github.com/HighCWu/starganv2vc-paddle).Thanks for their excellent works!
