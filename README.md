@@ -1,5 +1,5 @@
 # README
-This is the official implementation of our paper "Towards Stealthy Backdoor Attacks against Speech Recognition via Elements of Sound". This research project is developed based on Python 3 and Pytorch, created by [Yiming Li](http://liyiming.tech/) and Hanbo Cai.
+This is the official implementation of our paper "Toward Stealthy Backdoor Attacks against Speech Recognition via Elements of Sound". This research project is developed based on Python 3 and Pytorch, created by [Yiming Li](http://liyiming.tech/) and Hanbo Cai.
 
 ## Citation
 
