@@ -6,11 +6,13 @@ This is the official implementation of our paper "Towards Stealthy Backdoor Atta
 If you think this work or our codes are useful for your research, please cite our paper via:
 
 ```bibtex
-@article{cai2024towards,
-  title={Towards Stealthy Backdoor Attacks against Speech Recognition via Elements of Sound},
+@article{cai2024toward,
+  title={Toward Stealthy Backdoor Attacks against Speech Recognition via Elements of Sound},
   author={Cai, Hanbo and Zhang, Pengcheng and Dong, Hai and Xiao, Yan and Koffas, Stefanos and Li, Yiming},
   journal={IEEE Transactions on Information Forensics and Security},
   year={2024},
+  volume={19},
+  pages={5852-5866},
   publisher={IEEE}
 }
 ```
